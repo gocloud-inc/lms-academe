@@ -1,5 +1,10 @@
 'use strict';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+AOS.init();
+
 import * as Turbo from "@hotwired/turbo";
 import { Modal, Dropdown } from "bootstrap";
 import Button from "./buttons";

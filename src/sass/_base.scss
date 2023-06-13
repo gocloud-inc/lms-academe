@@ -278,3 +278,9 @@ hr {
 .filter-inverted {
     filter: invert(1);
 }
+
+.number-highlight {
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--color-light-shade);
+}
