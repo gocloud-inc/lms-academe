@@ -9,6 +9,7 @@ html, body {
     font-size: var(--font-base);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 
     @include breakpoint("sm") {
         font-size: calc(var(--font-base) - 1px) !important;
@@ -283,4 +284,12 @@ hr {
     font-size: 5rem;
     font-weight: 800;
     color: var(--color-light-shade);
+}
+
+.feature-img {
+    width: 500px;
+
+    @include breakpoint("lg") {
+        width: 100%;
+    }
 }
