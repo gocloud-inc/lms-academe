@@ -38,17 +38,6 @@ export default defineConfig({
             input: {
                 app: 'src/js/app.js',
                 index: resolve(__dirname, 'index.html'),
-                aboutUs: resolve(__dirname, 'about-us.html'),
-                news: resolve(__dirname, 'news.html'),
-                newsSingle: resolve(__dirname, 'news-single.html'),
-                contactUs: resolve(__dirname, 'contact-us.html'),
-                termsOfUse: resolve(__dirname, 'terms-of-use.html'),
-                privacyPolicy: resolve(__dirname, 'privacy-policy.html'),
-                careers: resolve(__dirname, 'careers.html'),
-                resources: resolve(__dirname, 'resources.html'),
-                services: resolve(__dirname, 'services.html'),
-                rates: resolve(__dirname, 'rates.html'),
-                knowYourBill: resolve(__dirname, 'know-your-bill.html'),
             },
             output: {
                 dir: 'dist',
