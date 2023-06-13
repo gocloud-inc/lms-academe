@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
 }
 
 html, body {
@@ -10,6 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    text-rendering: optimizeSpeed;
 
     @include breakpoint("sm") {
         font-size: calc(var(--font-base) - 1px) !important;
